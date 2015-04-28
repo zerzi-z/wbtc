@@ -1,1 +1,35 @@
+RDF and SPARQL
 
+
+
+Sources
+Online: http://wbtc.bfh.ch/2015/linked-data (28.04.2015)
+Online: http://www.w3.org/TeamSubmission/turtle (28.04.2015)
+
+
+
+
+
+
+Write a few triple statements for each of these areas:
+
+    A list of your accounts on the Web e.g., http://youtube.com/user/examplefunkymonkey
+    A list of your relationships (some sort of a contact; it could be a friend, colleague, spouse, ..)
+    A list of your interests e.g., http://dbpedia.org/resource/Design
+    A list of your accomplishments, like work experience or education, or even skills - CV like.
+
+Here are some examples:
+
+<http://csarven.ca/#i> <http://xmlns.com/foaf/0.1/interest> <http://en.wikipedia.org/wiki/Design> .
+
+<rdf:Description rdf:about="http://csarven.ca/#i">
+    <foaf:knows rdf:resource="http://example.org/about#homer">
+</rdf:Description>
+
+<p about="http://csarven.ca/#i">Sarven is interested in
+   <a rel="foaf:interest" href="http://en.wikipedia.org/wiki/Design">Design</a>.</p>
+
+
+See the source of http://csarven.ca/ for more triple examples (for RDFa). Again, you are encouraged to use the Turtle syntax.
+
+Use http://validator.w3.org/ or http://www.w3.org/2012/pyRdfa/Validator.html to validate your (X)HTML+RDFa documents. Or, the RDF Distiller which can handle multiple formats. Or RDF/XML from W3C. See also http://www.w3.org/2001/sw/wiki/SWValidators if you want to take a look at others.
