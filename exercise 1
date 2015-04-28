@@ -1,20 +1,21 @@
+Designing IRIs
+
 Pattern: http:// { subdomain = prename} . { domain = family name} . name / {main topics} / {sub topics}
 
 http://pascal.zerzuben.name
-
-http://pascal.zerzuben.name/work/birki
-http://pascal.zerzuben.name/work/manor
-
-http://pascal.zerzuben.name/school/kv-lenzburg
-http://pascal.zerzuben.name/school/schule-für-gestaltung-basel
-
-http://pascal.zerzuben.name/interests/paragliding
-http://pascal.zerzuben.name/interests/weather
-http://pascal.zerzuben.name/interests/music/black-sabbath
+http://pascal.zerzuben.name/work#birki
+http://pascal.zerzuben.name/work#manor
+http://pascal.zerzuben.name/education#kv-lenzburg
+http://pascal.zerzuben.name/education#bfh
+http://pascal.zerzuben.name/interests/paragliding#spots
+http://pascal.zerzuben.name/interests/paragliding#weather
+http://pascal.zerzuben.name/interests/music#black-sabbath
 
 I know that there could be the possibility that a interest becomes a job and in this case there would be the opportunity to rederict the link.
+In the next 5 to 10 years i assume it should hold. What happens after 100 years nobody knows.
 
-
+ELI5 Linked Data
+Your name is Alice. Your best friends name is Bob. So if you are both in one room and I say "Hy Alice" you know that I talk to you. So in this case your name is the URI. In other words URI is just a fancy grown up word for name with the addition that every name can only be used one time. So there is no other Bob or another Alice. 
 
 Sources
 Online: http://csarven.ca/presentations/web-tripping-bfh/#cool-uri-2 (21.04.2015)
