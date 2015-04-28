@@ -1,1 +1,26 @@
-test
+Pattern: http:// { subdomain = prename} . { domain = family name} . name / {main topics} / {sub topics}
+
+http://pascal.zerzuben.name
+
+http://pascal.zerzuben.name/work/birki
+http://pascal.zerzuben.name/work/manor
+
+http://pascal.zerzuben.name/school/kv-lenzburg
+http://pascal.zerzuben.name/school/schule-für-gestaltung-basel
+
+http://pascal.zerzuben.name/interests/paragliding
+http://pascal.zerzuben.name/interests/weather
+http://pascal.zerzuben.name/interests/music/black-sabbath
+
+I know that there could be the possibility that a interest becomes a job and in this case there would be the opportunity to rederict the link.
+
+
+
+
+
+
+Sources
+http://csarven.ca/presentations/web-tripping-bfh/#cool-uri-2
+
+https://joinup.ec.europa.eu/sites/default/files/ckeditor_files/images/URI_Visualisation_v0_03.jpg
+
