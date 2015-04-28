@@ -15,10 +15,11 @@ I know that there could be the possibility that a interest becomes a job and in 
 In the next 5 to 10 years i assume it should hold. What happens after 100 years nobody knows.
 
 ELI5 Linked Data
-Your name is Alice. Your best friends name is Bob. So if you are both in one room and I say "Hy Alice" you know that I talk to you. So in this case your name is the URI. In other words URI is just a fancy grown up word for name with the addition that every name can only be used one time. So there is no other Bob or another Alice. 
+Your name is Alice. Your best friends name is Bob. So if you are both in one room and I say "Hy Alice" you know that I talk to you. So in this case your name is the URI. In other words URI is just a fancy grown up word for name with the addition that every name can only be used one time. So there is no other Bob or another Alice. Since you know Bob there is a link between you (Alice) and Bob. Now Bob has an age, height, name and hobbys as well as many other things. You (Alice) also have those things. Now we could compare you. You have the same age and the same hobbys. Now imagin if all the people of this world would be linked together. Now we could see how many people are the same age as you (Alice) and Bob, or how many people have the same hobbys. Then we could say if people are betweeen 5-7 years old they have all the same hobby. Now thanks to all people linked togehter we can check if this hypothese is correct. So very shorty everything is linked togehter and then because everything is linked together we have a lot of data, which also means that we now can check many different hypothesis and get good answers.
 
 Sources
 Online: http://csarven.ca/presentations/web-tripping-bfh/#cool-uri-2 (21.04.2015)
 Online: https://joinup.ec.europa.eu/sites/default/files/ckeditor_files/images/URI_Visualisation_v0_03.jpg (21.04.2015)
 Online: http://www.w3.org/Provider/Style/URI.html (21.04.2015)
 Online: https://joinup.ec.europa.eu/sites/default/files/c0/7d/10/D7.1.3%20-%20Study%20on%20persistent%20URIs.pdf (21.04.2015)
+Online: http://www.reddit.com/r/semanticweb/comments/1gbuvp/explain_linked_data_like_im_five/ (28.04.2015)
