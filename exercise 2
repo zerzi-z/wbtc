@@ -30,7 +30,8 @@ Tanks
   foaf:mbox <mailto:pascal@zerzuben.name> ;
   foaf:interest dbpedia:Gleitschirmfliegen 
   foaf:workedat "Birkhäuser + GBC" ;
-  foaf:education "Multimedia Designer" .
+  foaf:education "Multimedia Designer" 
+  foaf:knows <https://www.facebook.com/jaime.e.ramirez.5>.
 
 ----------------------------------------------------
 Sources
