@@ -1,8 +1,9 @@
 ----------------------------------------------------
 3 RDF and SPARQL
 ----------------------------------------------------
-
-
+----------------------------------------------------
+3.1 RDF
+----------------------------------------------------
 # set the prefixes
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
@@ -19,6 +20,12 @@
   foaf:schoolHomepage <https://www.bfh.ch/>;
   foaf:mbox <mailto:pascal@zerzuben.name> ;
   foaf:interest dbpedia:Gleitschirmfliegen 
+  foaf:knows <https://www.facebook.com/can.akarsu3>, <https://www.facebook.com/jaime.e.ramirez.5>, <https://www.facebook.com/jakob.rufer>, <https://www.facebook.com/kurt.meiringen>.
+  
+  
+----------------------------------------------------
+3.2 SPARQL
+----------------------------------------------------
 
 ----------------------------------------------------
 Sources
