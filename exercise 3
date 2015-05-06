@@ -1,0 +1,30 @@
+----------------------------------------------------
+3 RDF and SPARQL
+----------------------------------------------------
+
+
+# set the prefixes
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dbpedia: <http://de.dbpedia.org/page/> .
+
+# describing pascal the person
+<http://pascal.zerzuben.name/#me>
+  rdf:type foaf:Person ;
+  foaf:name "Pascal Zerzuben" ;
+  foaf:birthday '03-08';
+  foaf:title 'Mr';
+  foaf:nick "zerzi" ;
+  foaf:skypeID "zerzi-on-skype3" ;
+  foaf:schoolHomepage <https://www.bfh.ch/>;
+  foaf:mbox <mailto:pascal@zerzuben.name> ;
+  foaf:interest dbpedia:Gleitschirmfliegen 
+
+----------------------------------------------------
+Sources
+----------------------------------------------------
+Online: http://csarven.ca/presentations/rdf-and-sparql-stuff/ (28.04.2015)
+Online: http://www.w3.org/TeamSubmission/turtle (28.04.2015)
+Online: http://www.w3.org/TR/rdf11-primer/ (06.05.2015)
+Online: http://www.w3.org/TR/rdf-schema/ (06.05.2015)
+Online: http://www.w3.org/TR/REC-rdf-syntax/ (06.05.2015)
