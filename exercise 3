@@ -7,7 +7,7 @@
 # set the prefixes
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix dbpedia: <http://de.dbpedia.org/page/> .
+@prefix dbpedia: <http://dbpedia.org/page/> .
 
 # describing pascal the person
 <http://pascal.zerzuben.name/#me>
@@ -18,14 +18,17 @@
   foaf:nick "zerzi" ;
   foaf:skypeID "zerzi-on-skype3" ;
   foaf:schoolHomepage <https://www.bfh.ch/>;
-  foaf:mbox <mailto:pascal@zerzuben.name> ;
-  foaf:interest dbpedia:Gleitschirmfliegen 
+  foaf:mbox <mailto:pascal.zerzuben@students.bfh.ch> ;
+  foaf:interest dbpedia:Pinball , dpbedia:Paragliding , dpbedia:Black_Sabbath ;
+  foaf:made <https://github.com/zerzi-z/wbtc/blob/master/exercise%201>;
   foaf:knows <https://www.facebook.com/can.akarsu3>, <https://www.facebook.com/jaime.e.ramirez.5>, <https://www.facebook.com/jakob.rufer>, <https://www.facebook.com/kurt.meiringen>.
   
   
 ----------------------------------------------------
 3.2 SPARQL
 ----------------------------------------------------
+
+
 
 ----------------------------------------------------
 Sources
