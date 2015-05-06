@@ -1,35 +1,42 @@
-RDF and SPARQL
+----------------------------------------------------
+2 RDF and SPARQL
+----------------------------------------------------
+Hy Sarven 
+I know I am way to late to submit the exercise 2, I dont care if I get the 2.5 points or not for this exercise.
+However I would like to get feedback on the stuff I did.
 
+I valideted with: "http://www.w3.org/2012/pyRdfa/Validator.html#distill_by_input"
+and it gave me back: "Congratulations, your RDFa source is valid; 
+however there is one informational message in your RDFa content that you might want to check
+(Checked RDFa 1.1 Lite, with HTML5+RDFa as host language.)
+Informational messages
+Info: Input Host Language:HTML5+RDFa, RDFa version:1.1, base:"
 
+Do you know what the validator means by "there is one informational message in your RDFa content that you might want to check" ?
+Tanks
 
+# set the prefixes
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://extended-xmlns-defination.com/foaf/0.1/> .
+@prefix dbpedia: <http://de.dbpedia.org/page/> .
+
+# describing pascal the person
+<http://pascal.zerzuben.name/#me>
+  rdf:type foaf:Person ;
+  foaf:name "Pascal Zerzuben" ;
+  foaf:nick "zerzi" ;
+  foaf:skypeID "zerzi-on-skype3" ;
+  foaf:schoolHomepage <https://www.bfh.ch/>;
+  foaf:mbox <mailto:pascal@zerzuben.name> ;
+  foaf:interest dbpedia:Gleitschirmfliegen 
+  foaf:workedat "Birkhäuser + GBC" ;
+  foaf:education "Multimedia Designer" .
+
+----------------------------------------------------
 Sources
-Online: http://wbtc.bfh.ch/2015/linked-data (28.04.2015)
+----------------------------------------------------
+Online: http://csarven.ca/presentations/rdf-and-sparql-stuff/ (28.04.2015)
 Online: http://www.w3.org/TeamSubmission/turtle (28.04.2015)
-
-
-
-
-
-
-Write a few triple statements for each of these areas:
-
-    A list of your accounts on the Web e.g., http://youtube.com/user/examplefunkymonkey
-    A list of your relationships (some sort of a contact; it could be a friend, colleague, spouse, ..)
-    A list of your interests e.g., http://dbpedia.org/resource/Design
-    A list of your accomplishments, like work experience or education, or even skills - CV like.
-
-Here are some examples:
-
-<http://csarven.ca/#i> <http://xmlns.com/foaf/0.1/interest> <http://en.wikipedia.org/wiki/Design> .
-
-<rdf:Description rdf:about="http://csarven.ca/#i">
-    <foaf:knows rdf:resource="http://example.org/about#homer">
-</rdf:Description>
-
-<p about="http://csarven.ca/#i">Sarven is interested in
-   <a rel="foaf:interest" href="http://en.wikipedia.org/wiki/Design">Design</a>.</p>
-
-
-See the source of http://csarven.ca/ for more triple examples (for RDFa). Again, you are encouraged to use the Turtle syntax.
-
-Use http://validator.w3.org/ or http://www.w3.org/2012/pyRdfa/Validator.html to validate your (X)HTML+RDFa documents. Or, the RDF Distiller which can handle multiple formats. Or RDF/XML from W3C. See also http://www.w3.org/2001/sw/wiki/SWValidators if you want to take a look at others.
+Online: http://www.w3.org/TR/rdf11-primer/ (06.05.2015)
+Online: http://www.w3.org/TR/rdf-schema/ (06.05.2015)
+Online: http://www.w3.org/TR/REC-rdf-syntax/ (06.05.2015)
